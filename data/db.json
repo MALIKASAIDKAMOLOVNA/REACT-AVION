@@ -1,0 +1,116 @@
+{
+  "URL": [
+    {
+      "id": 1,
+      "name": "The Dandy chair ",
+      "image": "/images/product2.png",
+      "price": "250",
+      "quantity": 1
+    },
+
+    {
+      "id": 2,
+      "name": "Rustic Vase Set ",
+      "image": "/images/main2.png",
+      "price": "155",
+      "quantity": 1
+    },
+
+    {
+      "id": 3,
+      "name": "The Silky Vase ",
+      "image": "/images/main3.png",
+      "price": "125",
+      "quantity": 1
+    },
+
+    {
+      "id": 4,
+      "name": "The Lucy Lamp ",
+      "image": "/images/main4.png",
+      "price": "399",
+      "quantity": 1
+    }
+  ],
+  "URL2": [
+    {
+      "id": 5,
+      "name": "The Poplar suede sofa",
+      "image": "/images/product1.png",
+      "price": "980",
+      "quantity": 1
+    },
+
+    {
+      "id": 6,
+      "name": "The Dandy chair",
+      "image": "/images/product2.png",
+      "price": "250",
+      "quantity": 1
+    },
+
+    {
+      "id": 7,
+      "name": "The Dandy chair",
+      "image": "/images/product3.png",
+      "price": "250",
+      "quantity": 1
+    }
+  ],
+  "URL3":[
+    {
+      "id": 8,
+      "name": "The Dandy chair ",
+      "image": "/images/product2.png",
+      "price": "250",
+      "quantity": 1
+    },
+
+    {
+      "id": 9,
+      "name": "Rustic Vase Set ",
+      "image": "/images/main2.png",
+      "price": "155",
+      "quantity": 1
+    },
+
+    {
+      "id": 10,
+      "name": "The Silky Vase ",
+      "image": "/images/main3.png",
+      "price": "125",
+      "quantity": 1
+    },
+
+    {
+      "id": 11,
+      "name": "The Lucy Lamp ",
+      "image": "/images/main4.png",
+      "price": "399",
+      "quantity": 1
+    },
+    {
+      "id": 12,
+      "name": "The Poplar suede sofa",
+      "image": "/images/product1.png",
+      "price": "980",
+      "quantity": 1
+    },
+
+    {
+      "id": 13,
+      "name": "The Dandy chair",
+      "image": "/images/product2.png",
+      "price": "250",
+      "quantity": 1
+    },
+
+    {
+      "id": 14,
+      "name": "The Dandy chair",
+      "image": "/images/product3.png",
+      "price": "250",
+      "quantity": 1
+    }
+  ]
+}

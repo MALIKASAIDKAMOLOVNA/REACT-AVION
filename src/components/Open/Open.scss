@@ -1,0 +1,25 @@
+.Open {
+  width: 40%;
+  height: 100vh;
+  background: antiquewhite;
+  position: fixed;
+  top: 0;
+  right: -100%;
+  z-index: 2;
+  transition: all 0.4s linear;
+  .openBars {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 200px auto;
+    gap: 40px;
+    .openBars li a {
+      font-size: 27px;
+      color: #000;
+    }
+  }
+  .open.show {
+    right: 0!important;
+  }
+}

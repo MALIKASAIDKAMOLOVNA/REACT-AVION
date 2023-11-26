@@ -1,0 +1,126 @@
+.Started {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+    .startedList {
+      background: var(--Dark-Primary, #2a254b);
+      padding-left: 64px;
+      width: 100%;
+      h2 {
+        color: #fff;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        padding-top: 64px;
+        padding-bottom: 12px;
+      }
+      p {
+        color: #fff;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        width: 450px;
+        padding-bottom: 205px;
+      }
+      .startedBtn {
+        background: transparent;
+        color: var(--White, #fff);
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%;
+        border: none;
+        border: 1px solid rgba(249, 249, 249, 0.15);
+        padding: 16px 32px;
+        margin-bottom: 54px;
+      }
+    }
+    .startedImages {
+      width: 1450px;
+      height: 478px;
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+}
+
+@media (max-width: 1305px) {
+  .Started {
+    .container {
+      display: flex;
+      flex-direction: column;
+      .startedImages {
+        width: 100%;
+        height: 478px;
+        img {
+          width: 100%;
+          height: 100%;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 630px) {
+  .Started {
+    .container {
+      .startedList {
+        padding-right: 32px;
+        h2 {
+          padding-top: 64px;
+          padding-bottom: 12px;
+          width: 100%;
+        }
+        p {
+          padding-bottom: 205px;
+          width: 100%;
+          padding-bottom: 100px;
+        }
+      }
+      .startedImages {
+        height: auto;
+      }
+    }
+  }
+}
+@media (max-width: 385px) {
+  .Started {
+    .container {
+      .startedList {
+        padding-left: 32px;
+        h2 {
+          padding-top: 64px;
+          padding-bottom: 12px;
+          font-size: 20px;
+          width: 100%;
+        }
+        p {
+          padding-bottom: 205px;
+          width: 100%;
+          font-size: 14px;
+          padding-bottom: 50px;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 330px) {
+  .Started {
+    .container {
+      .startedList {
+        .startedBtn {
+          white-space: nowrap;
+          padding: 16px 16px;
+          font-size: 16px;
+        }
+      }
+    }
+  }
+}

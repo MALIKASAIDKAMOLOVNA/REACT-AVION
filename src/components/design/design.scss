@@ -1,0 +1,239 @@
+.Design {
+  padding-top: 130px !important;
+  .container {
+    padding: 0;
+    .designImages {
+      position: relative;
+      height: 100vh;
+      width: 100%;
+      padding: 0;
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+    .designTitle {
+      position: absolute !important;
+      top: 230px !important;
+      right: 80px !important;
+      width: 630px !important;
+      padding-left: 56px !important;
+      background: #fff;
+      h1 {
+        color: #22202e;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 140%;
+        width: 430px;
+        padding-top: 48px;
+        padding-bottom: 20px;
+      }
+      p {
+        color: #413d57;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%;
+        padding-bottom: 157px;
+      }
+      .DesignBtn {
+        color: #2a254b;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%;
+        padding: 16px 32px;
+        border: 1px solid rgb(195, 192, 192);
+        background: transparent;
+        margin-bottom: 46px;
+      }
+      .DesignerSpan {
+        display: none;
+        h1 {
+          color: var(--Dark-Primary, #2a254b);
+          font-size: 24px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+        }
+        p {
+          color: var(--Dark-Primary, #2a254b);
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+        }
+        .DesignBtn {
+          color: #2a254b;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 150%;
+          padding: 16px 32px;
+          border: 1px solid rgb(195, 192, 192);
+          background: transparent;
+          margin-bottom: 46px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1920px) {
+  .Design {
+    padding-top: 180px;
+    .container {
+      .designTitle {
+        top: 600px;
+        right: 90px;
+      }
+    }
+  }
+}
+@media (max-width: 1280px) {
+  .Design {
+    padding-top: 130px;
+    .container {
+      .designTitle {
+        position: absolute;
+        top: 220px;
+        right: 80px;
+        width: 630px;
+        padding-left: 56px;
+        background: #fff;
+      }
+    }
+  }
+}
+@media (max-width: 940px) {
+  .Design {
+    padding-top: 150px;
+    .container {
+      display: flex;
+      flex-direction: column-reverse;
+      .designImages {
+        position: relative;
+        height: auto;
+      }
+      .designTitle {
+        display: none;
+        h1 {
+          width: 100%;
+          padding-bottom: 12px;
+        }
+        p {
+          padding-bottom: 80px;
+        }
+        .DesignBtn {
+          width: 250px;
+          display: flex;
+          justify-content: center;
+          margin: auto;
+          text-align: center;
+        }
+        .DesignerSpan {
+          display: flex;
+          flex-direction: column;
+          padding: 0 50px;
+          text-align: center;
+          margin-bottom: 32px;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 740px) {
+  .Design {
+    padding-top: 110px;
+  }
+}
+@media (max-width: 530px) {
+  .Design {
+    .container {
+      .designTitle {
+        .DesignerSpan {
+          text-align: left;
+          h1 {
+            width: 300px;
+          }
+          p {
+            width: 320px;
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 390px) {
+  .Design {
+    .container {
+      .designTitle {
+        .DesignerSpan {
+          h1 {
+            width: 100%;
+          }
+          p {
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 340px) {
+  .Design {
+    .container {
+      .designTitle {
+        .DesignBtn {
+          width: 200px;
+          padding: 16px 20px;
+        }
+        .DesignerSpan {
+          .DesignBtn {
+            width: 200px;
+            padding: 16px 20px;
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 270px) {
+  .Design {
+    .container {
+      .designTitle {
+        .DesignBtn {
+          width: 130px;
+          display: flex;
+          justify-content: center;
+          margin: auto;
+          text-align: center;
+          white-space: nowrap;
+          padding: 16px 28px;
+        }
+        .DesignerSpan {
+          h1 {
+            font-size: 20px;
+            width: 100%;
+            text-align: center;
+          }
+          p {
+            font-size: 14px;
+            width: 100%;
+            text-align: center;
+          }
+          .DesignBtn {
+            width: 130px;
+            display: flex;
+            justify-content: center;
+            margin: auto;
+            text-align: center;
+            white-space: nowrap;
+            padding: 16px 28px;
+          }
+        }
+      }
+    }
+  }
+}

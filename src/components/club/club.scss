@@ -1,0 +1,144 @@
+.Club {
+  background-image: url("/public/images/clubImages.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  margin-top: 70px;
+  .container {
+    display: flex;
+    flex-direction: column;
+    .ClubName {
+      text-align: center;
+      color: var(--White, #fff);
+      font-size: 32px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 140%;
+      padding-top: 97px;
+      padding-bottom: 12px;
+    }
+    .ClubNameList {
+      color: var(--White, #fff);
+      text-align: center;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 150%;
+      width: 450px;
+      margin: auto;
+      padding-bottom: 30px;
+    }
+    .ClubIcons {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 36px;
+      padding-bottom: 40px;
+      .ClubIcon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        white-space: nowrap;
+        p {
+          color: var(--White, #fff);
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 150%;
+        }
+        .fa-circle-check {
+          font-size: 18px;
+          padding-right: 8px;
+        }
+      }
+    }
+    .ClubInput {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding-bottom: 86px;
+      input {
+        border: 1px solid #2a254b;
+        display: flex;
+        width: 350px;
+        background: var(--Light-Grey, #f9f9f9);
+        height: 56px;
+        ::placeholder {
+          color: var(--Dark-Primary, #2a254b);
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+        }
+      }
+      .ClubInputButton {
+        background: var(--Dark-Primary, #2a254b);
+        color: var(--White, #fff);
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%;
+        padding: 16px 32px;
+        border: none;
+      }
+    }
+  }
+}
+
+@media (max-width: 575px) {
+  .Club {
+    .container {
+      .ClubName {
+        width: 100%;
+      }
+      .ClubNameList {
+        width: 100%;
+      }
+      .ClubIcons {
+        flex-direction: column;
+        align-items: start;
+        gap: 8px;
+      }
+      .ClubInput {
+        .ClubInputButton {
+          white-space: nowrap;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 400px) {
+  .Club {
+    .container {
+      .ClubInput {
+        input {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 372px) {
+  .Club {
+    .container {
+      .ClubName {
+        color: var(--White, #fff);
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 140%;
+      }
+      .ClubNameList {
+        color: var(--White, #fff);
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%;
+      }
+      .ClubInput {
+        display: none;
+      }
+    }
+  }
+}

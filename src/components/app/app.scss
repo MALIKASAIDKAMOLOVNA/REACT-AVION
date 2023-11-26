@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Clash Display;
+  text-decoration: none;
+  list-style: none;
+  /* outline: 1px solid gray; */
+}
+
+.container {
+  width: 100%;
+  padding: 0 50px;
+}
+
+.App {
+  position: relative;
+  overflow: hidden;
+}
